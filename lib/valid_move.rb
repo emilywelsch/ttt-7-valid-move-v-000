@@ -2,8 +2,7 @@
 board = []
 index = 0
 def valid_move?(board,index)
-  if index.between?(0,8) == 0 && position_taken?([],0) != 0
-    puts "true"
+  if index.between?(0,8) == 0 && position_taken? != 0
   else
     puts "nil"
   end
