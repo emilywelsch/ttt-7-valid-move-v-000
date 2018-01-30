@@ -1,4 +1,9 @@
 # code your #valid_move? method here
+def between?(min,max)
+  min = 0
+  max = 8
+end
+
 board = []
 index = 0
 def valid_move?(board,index)
