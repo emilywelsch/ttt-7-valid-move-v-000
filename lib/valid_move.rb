@@ -1,6 +1,5 @@
 # code your #valid_move? method here
-board = []
-index = 0
+
 def valid_move?(board,index)
   if index.between?(0,8) == 0 && position_taken? != 0
   end
