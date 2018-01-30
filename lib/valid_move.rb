@@ -4,8 +4,10 @@ index = 0
 def valid_move?(board,index)
   if index.between?(0,8) == 0
     puts "true"
+  end
   if position_taken?(board,index) != 0
     puts "true"
+  end
   else puts "nil"
   end
 end
